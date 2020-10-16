@@ -1,0 +1,19 @@
+Unirank: Data Preview (head, pipe and csvlook)
+
+Find the colleges in the ranklist (grep, pipe and wc)
+
+Finding the percent of colleges in the ranklist (wc, grep)
+
+Listing the Institutes from a given state (grep)
+--------------------------------------------------- task given to us.
+
+head
+1.$ head state.txt (prints 1st 10 lines)
+2. -n num: Prints the first ‘num’ lines instead of first 10 lines. num is mandatory to be specified in command otherwise it displays an error.
+3. -c num: Prints the first ‘num’ bytes from the file specified. Newline count as a single character, so if head prints out a newline, it will count it as a byte. num is mandatory to be specified in command otherwise displays an error.
+4. -q: It is used if more than 1 file is given. Because of this command, data from each file is not precedes by its file name.
+5.-v: By using this option, data from the specified file is always preceded by its file name.
+6.Print line between M and N lines: For this purpose we use head, tail and pipeline(|) commands. Command is: head -M file_name | tail -(M-N),
+
+question. $ ls -t | head -n 3 | sort
+recently used with top 3 piped with sorting with alphabetical order 
