@@ -16,4 +16,4 @@ head
 6.Print line between M and N lines: For this purpose we use head, tail and pipeline(|) commands. Command is: head -M file_name | tail -(M-N),
 
 question. $ ls -t | head -n 3 | sort
-recently used with top 3 piped with sorting with alphabetical order 
+recently used command piped with with top 3 command piped with sorting with alphabetical order 
